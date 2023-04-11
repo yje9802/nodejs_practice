@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_practice",
+  "version": "1.0.0",
+  "description": "youtube clone using nodejs",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yje9802/nodejs_practice.git"
+  },
+  "author": "Jieun Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yje9802/nodejs_practice/issues"
+  },
+  "homepage": "https://github.com/yje9802/nodejs_practice#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4",
+    "nodemon": "^2.0.22"
+  }
+}
